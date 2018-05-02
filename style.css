@@ -1,0 +1,97 @@
+body {
+  background-color: #EBEBEB;
+  color: #7d7d7d;
+  font-family: 'Roboto', sans-serif;
+  line-height: 16px;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card-white {
+  background: white;                          /* White background */
+  padding: 30px;                              /* Internal space */
+  border-radius: 4px;                         /* Small radius */
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid rgba(0, 0, 0, 0.1);       /* OR subtle border */
+  margin: 10px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.img-profile {
+  width: 120px;
+  border: solid 4px #A0A0A0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 20px;
+  padding-left: 0px;
+}
+
+.list-inline li i {
+  font-size: 34px;
+}
+
+.btn-red {
+  background-color: #DD5555;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.btn-red:hover {
+  background-color: #BB5555;
+  color: white;
+}
+
+h1, h2, h3 {
+  color: #505050;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  color: #DD5555;
+  font-size: 22px
+  font-weight: 900;
+}
+
+h2 {
+  font-weight: 100;
+}
+
+a {
+  color: #A0A0A0;
+  text-decoration: none
+}
+
+a:hover {
+  color: #FF9090;
+}
+
+#movies img {
+  width: 100px;
+  height: 140px;
+}
+
+#movies td {
+  padding: 5px;
+}
+
+.align-left {
+  text-align: left
+}
+
+.justify {
+  text-align: justify;
+}
+
